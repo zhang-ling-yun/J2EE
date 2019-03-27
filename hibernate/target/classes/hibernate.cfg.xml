@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/huagong</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">19960610</property>
+        <!--显示生成的sql语句-->
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <!-- 禁用了javaEE6的bean-validate -->
+        <property name="javax.persistence.validation.mode">none</property>
+        <!-- 指定数据库方言 -->
+        <property name="dialect">org.hibernate.dialect.MySQL57Dialect</property>
+        <!-- 即可通过getCurrentSession 获取线程唯一的session -->
+        <property name="current_session_context_class">thread</property>
+
+        <!--在数据库中自动创建表-->
+        <!--<property name="hbm2ddl.auto">update</property>-->
+        <!-- 指定ddl的生成方式 -->
+        <!--<property name="hibernate.hbm2ddl.auto">create</property>-->
+
+        <!-- 表示Hibernate会去识别Product这个实体类 -->
+        <mapping resource="mapping/Product.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>
