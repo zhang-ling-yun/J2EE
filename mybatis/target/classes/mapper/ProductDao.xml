@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.edu.scut.mybatis.dao.ProductDao">
+    <!-- 注意列名别名的使用 -->
+    <select id="listProduct" resultType="Product">
+       select id,`name`,price,create_time createTime from product
+    </select>
+
+    <insert id="addProduct" parameterType="Product">
+       insert into product(`name`,price) values (#{name},#{price})
+    </insert>
+
+    <delete id="deleteProduct" parameterType="Product">
+        delete from product where id= #{id}
+    </delete>
+
+    <select id="getProduct" parameterType="_int" resultType="Product">
+        select id,`name`,price,create_time createTime from product where id= #{id}
+    </select>
+
+    <update id="updateProduct" parameterType="Product">
+        update product set `name`=#{name} where id=#{id}
+    </update>
+
+    <select id="listProductByName" resultType="Product">
+        select id,`name`,price,create_time createTime from product
+        <if test="name != null and name != ''">
+            where `name` like concat('%',#{name},'%')
+        </if>
+    </select>
+
+    <select id="listProductByNameAndPrice" resultType="Product">
+        select id,`name`,price,create_time createTime from product
+        <where>
+            <if test="name != null and name != ''">
+                and `name` like concat('%',#{name},'%')
+            </if>
+            <if test="price != null">
+                and price >= #{price}
+            </if>
+        </where>
+    </select>
+
+    <select id="testChoose" resultType="Product">
+        select id,`name`,price,create_time createTime from product
+        <where>
+            <choose>
+                <when test="name != null">
+                    and `name` like concat('%',#{name},'%')
+                </when>
+                <when test="price !=null">
+                    and price >= #{price}
+                </when>
+                <otherwise>
+                    and id > 1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <select id="testForeach" resultType="Product">
+        select id,`name`,price,create_time createTime from product
+        where ID in
+        <foreach item="item" index="index" collection="list"
+                 open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+
+    <select id="testBind" resultType="Product">
+        <bind name="likename" value="'%' + name + '%'" />
+        select id,`name`,price,create_time createTime
+        from product where `name` like #{likename}
+    </select>
+</mapper>
