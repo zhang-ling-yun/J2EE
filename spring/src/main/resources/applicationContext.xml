@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--
+    第一种方式：利用无参构造器
+    id:唯一标识符
+    class:类的全类名
+      -->
+    <bean id="product" scope="singleton" class="cn.edu.scut.spring.entity.Product">
+        <!-- set注入 -->
+        <property name="id" value="1"/>
+        <property name="name" value="Java编程思想"/>
+        <property name="price" value="11.88"/>
+        <property name="createTime" ref="date"/>
+    </bean>
+    <bean id="date" class="java.util.Date"/>
+    <!-- 别名属性  name：和bean的 id 属性对应 -->
+    <alias name="product" alias="product1"/>
+
+    <!-- 第二种注入方式：构造器注入 -->
+    <bean id="product2" scope="prototype" class="cn.edu.scut.spring.entity.Product">
+        <constructor-arg name="id" value="1"/>
+        <constructor-arg name="name" value="Java核心技术卷II"/>
+        <constructor-arg name="price" value="99.99"/>
+        <constructor-arg name="createTime" ref="date"/>
+    </bean>
+
+    <!-- 使用注解方式注入对象 -->
+    <context:component-scan base-package="cn.edu.scut.spring.entity"/>
+
+    <bean id="springLifeCycle" init-method="init" destroy-method="destroy" class="cn.edu.scut.spring.entity.SpringLifeCycle"></bean>
+
+    <!-- 1. 创建目标类 -->
+    <bean id="productService" class="cn.edu.scut.spring.service.impl.ProductServiceImpl"/>
+    <!-- 2. 创建切面类(通知) -->
+    <bean id="transaction" class="cn.edu.scut.spring.transaction.LogTransaction"/>
+
+    <!--3、aop编程
+        3.1 导入命名空间
+        3.2 使用 <aop:config>进行配置
+                proxy-target-class="true" 声明时使用cglib代理
+                如果不声明，Spring 会自动选择cglib代理还是JDK动态代理
+            <aop:pointcut> 切入点 ，从目标对象获得具体方法
+            <aop:advisor> 特殊的切面，只有一个通知 和 一个切入点
+                advice-ref 通知引用
+                pointcut-ref 切入点引用
+        3.3 切入点表达式
+            execution(* com.ys.aop.*.*(..))
+            选择方法         返回值任意   包             类名任意   方法名任意   参数任意
+
+    -->
+    <aop:config>
+        <!-- 切入点表达式 -->
+        <aop:pointcut expression="execution(* cn.edu.scut.spring.service.impl.*.*(..))" id="myPointCut"/>
+        <aop:aspect ref="transaction">
+            <!-- 配置前置通知，注意 method 的值要和 对应切面的类方法名称相同 -->
+            <aop:before method="before" pointcut-ref="myPointCut"></aop:before>
+            <aop:after-returning method="after" pointcut-ref="myPointCut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
