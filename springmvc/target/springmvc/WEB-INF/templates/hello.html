@@ -1,0 +1,36 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" th:href="@{/js/plugins/layui/css/layui.css}" href="../js/plugins/layui/css/layui.css"
+          media="all"/>
+    <title>Spring MVC + Thymeleaf Example</title>
+</head>
+<body>
+<table class="layui-table">
+    <colgroup>
+        <col width="150">
+        <col width="200">
+        <col>
+    </colgroup>
+    <thead>
+    <tr>
+        <th>昵称</th>
+        <th>手机号码</th>
+        <th>邮箱</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <!--/*@thymesVar id="name" type="java.lang.String"*/-->
+        <td th:text="${name}"></td>
+        <!--/*@thymesVar id="phone" type="java.lang.String"*/-->
+        <td th:text="${phone}"></td>
+        <!--/*@thymesVar id="email" type="java.lang.String"*/-->
+        <td th:text="${email}"></td>
+    </tr>
+    </tbody>
+    <!--/*@thymesVar id="date" type="java.lang.String"*/-->
+    <p th:text="${date}"></p>
+</table>
+</body>
+</html>

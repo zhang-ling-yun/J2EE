@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title th:text="${username}">xx</title>
+    <style>
+        span {
+            color: red;
+            font-weight: bold;
+            font-size: 20px;
+            padding-left: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<h1 th:text="${username}">Hello World</h1>
+<h1>获取对象信息</h1>
+<h2>1、通过直接访问对象的方式</h2>
+<span th:text="${userInfo.userName}"></span>
+<span th:text="${userInfo.password}"></span>
+
+<h2>2、通过th:object访问对象的方式</h2>
+<div th:object="${userInfo}">
+    <span th:text="*{userName}"></span>
+    <span th:text="*{password}"></span>
+</div>
+</body>
+</html>

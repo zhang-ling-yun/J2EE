@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/js/plugins/layui/css/layui.css}" href="../../js/plugins/layui/css/layui.css"
+          media="all"/>
+    <title>表单提交</title>
+    <style>
+        form {
+            margin-left: 30%;
+            margin-top: 15%;
+        }
+    </style>
+</head>
+<body>
+<form class="layui-form" th:action="@{/add}" method="post">
+    <div class="layui-form-item">
+        <label style="width: 100px;" class="layui-form-label">用户名：</label>
+        <div style="width: 300px" class="layui-input-inline">
+            <input type="text" name="userName" id="userName" autocomplete="off" placeholder="请输入用户名" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label style="width: 100px;" class="layui-form-label">密码：</label>
+        <div style="width: 300px" class="layui-input-inline">
+            <input type="text" name="password" id="password" autocomplete="off" placeholder="请输入密码" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div style="margin-left: 150px">
+            <button style="width: 150px;" class="layui-btn" id="submit-btn" type="submit">提交</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
