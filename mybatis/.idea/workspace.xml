@@ -1,89 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb82884b-91c6-4b1b-a9f3-58ba39608789" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <list default="true" id="fb82884b-91c6-4b1b-a9f3-58ba39608789" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/dataSources/03c13e0f-d6e5-4a8d-8a72-958cde33fb88.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/hibernate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/logs/error.log.2019-03-23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/logs/error.log.2019-03-24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/logs/log.log.2019-03-23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/logs/log.log.2019-03-24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/logs/log.log.2019-03-25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/java/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/main/java/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/java/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/main/java/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/resources/mapping/Product.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/mapping/Product.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/test/java/Log4JTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/test/java/Log4JTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/test/java/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/test/java/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/target/classes/mapping/Product.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/target/classes/mapping/Product.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/jdbc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/src/main/java/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/src/main/java/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/src/main/java/util/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/src/main/java/util/PropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/src/test/java/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/src/test/java/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/dao/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/util/SessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/util/SessionFactoryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/idea_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/idea_projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/SpringLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/SpringLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ObjectInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ObjectInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ProductMethodInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ProductMethodInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ProxyProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ProxyProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/transaction/LogTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/transaction/LogTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/SpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/springmvc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/FormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/interceptor/HelloInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/interceptor/HelloInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/resources/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/resources/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/file/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/file/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/form/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/form/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/classes/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/classes/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/classes/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/classes/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/file/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/file/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/form/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/form/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="25517478">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.59" value="1" />
-          <entry key="project.open.time.64" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.74" value="1" />
-          <entry key="project.opened" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1469" />
-          <entry key="properties" value="29" />
-          <entry key="xml" value="594" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1469" />
-          <entry key="Properties" value="29" />
-          <entry key="SQL" value="7" />
-          <entry key="XML" value="587" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="58" />
-          <entry key="java" value="31" />
-          <entry key="properties" value="13" />
-          <entry key="xml" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="58" />
-          <entry key="JAVA" value="31" />
-          <entry key="Properties" value="13" />
-          <entry key="XML" value="25" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ProductTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,157 +150,34 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/entity/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/Product.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/util/SessionFactoryUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/dao/ProductMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/ProductTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\libs" />
-        <option name="mavenHome" value="D:/maven/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="$USER_HOME$/maven/repos" />
+        <option name="mavenHome" value="$USER_HOME$/maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="$USER_HOME$/maven/apache-maven-3.6.2/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="754" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1YNZjCicy8oCw3kIXjjPD4y5CoP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Configuration&#9;FILE&#9;jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/Configuration.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554210700407" />
-    <property name="last_opened_file_path" value="E:/实习文件/广州恒通世纪科技有限公司/项目/omp-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -270,22 +196,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductTest.getProduct">
-    <configuration name="ProductTest.getProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductTest" />
-      <option name="METHOD_NAME" value="getProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProductTest.testOneLevel">
     <configuration name="ProductTest.testAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ProductTest" />
       <option name="METHOD_NAME" value="testAnnotation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.testBind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="METHOD_NAME" value="testBind" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -323,17 +249,17 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ProductTest.testForeach" />
+      <item itemvalue="JUnit.ProductTest.testBind" />
       <item itemvalue="JUnit.ProductTest.testAnnotation" />
       <item itemvalue="JUnit.ProductTest.testPageHelper" />
       <item itemvalue="JUnit.ProductTest.testOneLevel" />
-      <item itemvalue="JUnit.ProductTest.getProduct" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductTest.getProduct" />
         <item itemvalue="JUnit.ProductTest.testOneLevel" />
         <item itemvalue="JUnit.ProductTest.testPageHelper" />
         <item itemvalue="JUnit.ProductTest.testAnnotation" />
+        <item itemvalue="JUnit.ProductTest.testBind" />
         <item itemvalue="JUnit.ProductTest.testForeach" />
       </list>
     </recent_temporary>
@@ -357,114 +283,27 @@
       <workItem from="1554166820026" duration="25000" />
       <workItem from="1554203324048" duration="7067000" />
       <workItem from="1554253867875" duration="59000" />
+      <workItem from="1582785145773" duration="161000" />
+      <workItem from="1584696591925" duration="12327000" />
+      <workItem from="1585106443557" duration="3000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ProductTest_deleteProduct - 2019.04.02 at 20h 17m 18s.xml">
-      <configuration name="ProductTest.deleteProduct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_listProductByName - 2019.04.02 at 20h 22m 00s.xml">
-      <configuration name="ProductTest.listProductByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_listProductByName - 2019.04.02 at 20h 22m 45s.xml">
-      <configuration name="ProductTest.listProductByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_listProductByNameAndPrice - 2019.04.02 at 20h 26m 01s.xml">
-      <configuration name="ProductTest.listProductByNameAndPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_testChoose - 2019.04.02 at 20h 29m 06s.xml">
-      <configuration name="ProductTest.testChoose" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_testForeach - 2019.04.02 at 20h 32m 09s.xml">
-      <configuration name="ProductTest.testForeach" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_testAnnotation - 2019.04.02 at 20h 37m 58s.xml">
-      <configuration name="ProductTest.testAnnotation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_testPageHelper - 2019.04.02 at 20h 41m 42s.xml">
-      <configuration name="ProductTest.testPageHelper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_testOneLevel - 2019.04.02 at 20h 44m 26s.xml">
-      <configuration name="ProductTest.testOneLevel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_getProduct - 2019.04.02 at 21h 10m 23s.xml">
-      <configuration name="ProductTest.getProduct" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30425000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15733737" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.35630253" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3697479" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19183673" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.35630253" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.46554622" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -472,299 +311,44 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/binding/MapperRegistry.class</url>
           <line>28</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/Configuration.class</url>
           <line>725</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class</url>
           <line>268</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/binding/MapperProxyFactory.class</url>
           <line>34</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/binding/MapperProxyFactory.class</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/binding/MapperProxy.class</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class</url>
           <line>54</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/maven/repos/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/binding/MapperProxy.class</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://D:/maven/libs/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/parsing/XPathParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
-          <caret line="194" column="25" lean-forward="true" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/parsing/XNode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/JDK8/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/JDK8/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3515">
-          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/entity/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/dao/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="200" column="27" lean-forward="true" selection-start-line="200" selection-start-column="27" selection-end-line="200" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/builder/xml/XMLStatementBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="80" column="44" lean-forward="true" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/builder/xml/XMLMapperBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="175" column="64" lean-forward="true" selection-start-line="175" selection-start-column="64" selection-end-line="175" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/builder/xml/XMLConfigBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/scut/mybatis/util/SessionFactoryUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/SqlSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/binding/MapperMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/binding/MapperProxyFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/binding/MapperRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="725" selection-start-line="725" selection-end-line="725" />
-          <folding>
-            <element signature="e#25794#25795#0" expanded="true" />
-            <element signature="e#25850#25851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="e#9197#9198#0" expanded="true" />
-            <element signature="e#9260#9261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/CachingExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/Executor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/BaseExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="261" column="35" selection-start-line="261" selection-start-column="35" selection-end-line="261" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/libs/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/SimpleExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

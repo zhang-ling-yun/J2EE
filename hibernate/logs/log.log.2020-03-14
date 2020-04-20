@@ -1,0 +1,50 @@
+2020-03-14 18:19:13  [ main:0 ] - [INFO]  HHH000412: Hibernate Core {5.4.2.Final}
+2020-03-14 18:19:13  [ main:501 ] - [INFO]  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-14 18:19:14  [ main:980 ] - [WARN]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-03-14 18:19:14  [ main:990 ] - [INFO]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/huagong]
+2020-03-14 18:19:14  [ main:991 ] - [INFO]  HHH10001001: Connection properties: {password=****, user=root}
+2020-03-14 18:19:14  [ main:991 ] - [INFO]  HHH10001003: Autocommit mode: false
+2020-03-14 18:19:14  [ main:994 ] - [INFO]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-03-14 18:19:15  [ main:1657 ] - [INFO]  HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-14 18:19:15  [ main:2401 ] - [WARN]  SQL Error: 1406, SQLState: 22001
+2020-03-14 18:19:15  [ main:2401 ] - [ERROR]  Data truncation: Data too long for column 'name' at row 1
+2020-03-14 18:28:07  [ main:0 ] - [INFO]  HHH000412: Hibernate Core {5.4.2.Final}
+2020-03-14 18:28:07  [ main:445 ] - [INFO]  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-14 18:28:08  [ main:993 ] - [WARN]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-03-14 18:28:08  [ main:1008 ] - [INFO]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/huagong]
+2020-03-14 18:28:08  [ main:1009 ] - [INFO]  HHH10001001: Connection properties: {password=****, user=root}
+2020-03-14 18:28:08  [ main:1010 ] - [INFO]  HHH10001003: Autocommit mode: false
+2020-03-14 18:28:08  [ main:1012 ] - [INFO]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-03-14 18:28:09  [ main:1569 ] - [INFO]  HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-14 18:34:27  [ main:0 ] - [INFO]  HHH000412: Hibernate Core {5.4.2.Final}
+2020-03-14 18:34:28  [ main:437 ] - [INFO]  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-14 18:34:28  [ main:945 ] - [WARN]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-03-14 18:34:28  [ main:956 ] - [INFO]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/huagong]
+2020-03-14 18:34:28  [ main:958 ] - [INFO]  HHH10001001: Connection properties: {password=****, user=root}
+2020-03-14 18:34:28  [ main:959 ] - [INFO]  HHH10001003: Autocommit mode: false
+2020-03-14 18:34:28  [ main:963 ] - [INFO]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-03-14 18:34:29  [ main:1572 ] - [INFO]  HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-14 18:40:41  [ main:0 ] - [INFO]  HHH000412: Hibernate Core {5.4.2.Final}
+2020-03-14 18:40:42  [ main:426 ] - [INFO]  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-14 18:40:42  [ main:928 ] - [WARN]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-03-14 18:40:42  [ main:940 ] - [INFO]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/huagong]
+2020-03-14 18:40:42  [ main:941 ] - [INFO]  HHH10001001: Connection properties: {password=****, user=root}
+2020-03-14 18:40:42  [ main:941 ] - [INFO]  HHH10001003: Autocommit mode: false
+2020-03-14 18:40:42  [ main:943 ] - [INFO]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-03-14 18:40:43  [ main:1413 ] - [INFO]  HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-14 18:48:58  [ main:0 ] - [INFO]  HHH000412: Hibernate Core {5.4.2.Final}
+2020-03-14 18:48:59  [ main:423 ] - [INFO]  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-14 18:48:59  [ main:854 ] - [WARN]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-03-14 18:48:59  [ main:864 ] - [INFO]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/huagong]
+2020-03-14 18:48:59  [ main:865 ] - [INFO]  HHH10001001: Connection properties: {password=****, user=root}
+2020-03-14 18:48:59  [ main:865 ] - [INFO]  HHH10001003: Autocommit mode: false
+2020-03-14 18:48:59  [ main:867 ] - [INFO]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-03-14 18:49:00  [ main:1302 ] - [INFO]  HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-14 18:58:03  [ main:0 ] - [INFO]  HHH000412: Hibernate Core {5.4.2.Final}
+2020-03-14 18:58:04  [ main:470 ] - [INFO]  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-14 18:58:04  [ main:945 ] - [WARN]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-03-14 18:58:04  [ main:956 ] - [INFO]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/huagong]
+2020-03-14 18:58:04  [ main:956 ] - [INFO]  HHH10001001: Connection properties: {password=****, user=root}
+2020-03-14 18:58:04  [ main:956 ] - [INFO]  HHH10001003: Autocommit mode: false
+2020-03-14 18:58:04  [ main:959 ] - [INFO]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-03-14 18:58:05  [ main:1487 ] - [INFO]  HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect

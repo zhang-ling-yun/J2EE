@@ -23,7 +23,7 @@ public class FormController {
         return "redirect:hello";
     }
 
-    @RequestMapping("/form/add")
+    @RequestMapping("/form")
     public String add(ModelMap map) {
         User user = new User();
         user.setPassword("123456");

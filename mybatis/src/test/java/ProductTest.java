@@ -160,7 +160,7 @@ public class ProductTest {
         SqlSession session = SessionFactoryUtil.getSession();
         try {
             ProductDao mapper = session.getMapper(ProductDao.class);
-            logger.debug("testChoose result：" + mapper.testChoose("java",36.0));
+            logger.debug("testChoose result：" + mapper.testChoose(null,null));
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

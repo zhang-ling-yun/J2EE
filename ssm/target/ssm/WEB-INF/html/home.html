@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>小小演示系统</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/resources/easyui/themes/default/easyui.css}"
+          href="../resources/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" th:href="@{/resources/easyui/themes/icon.css}"
+          href="../resources/easyui/themes/icon.css">
+</head>
+<body class="easyui-layout" style="overflow-y: hidden" scroll="no">
+<div region="north" split="true" border="false" style="overflow: hidden; height: 30px;
+        background: url(../resources/easyui/images/layout-browser-hd-bg.gif) #7f99be repeat-x center 50%;
+        line-height: 20px;color: #fff; font-family: Verdana, 微软雅黑,黑体">
+    <span style="padding-left:10px; font-size: 16px; "><img src="../resources/easyui/images/blocks.gif" width="20"
+                                                            height="20"
+                                                            align="absmiddle"/> jQuery.EasyUI- 1.7.0 应用实例</span>
+</div>
+<div region="south" split="true" style="height: 30px; background: #D2E0F2; ">
+    <div class="footer" style="text-align: center"> jQuery.EasyUI- 1.7.0 应用实例</div>
+</div>
+<div region="west" hide="true" split="true" title="导航菜单" style="width:180px;" id="west">
+    <div id="nav" class="easyui-accordion" fit="true" border="false">
+        <!--  导航内容 -->
+
+    </div>
+
+</div>
+<div id="mainPanle" region="center" style="background: #eee; overflow-y:hidden">
+    <div id="tabs" class="easyui-tabs" fit="true" border="false">
+        <div title="欢迎使用" style="padding:20px;overflow:hidden; color:black;font-weight: bold ">
+            Welcome to EasyUI!
+        </div>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" th:src="@{/resources/easyui/js/jquery.min.js}"
+        src="../resources/easyui/js/jquery.min.js"></script>
+<script type="text/javascript" th:src="@{/resources/easyui/js/jquery.easyui.min.js}"
+        src="../resources/easyui/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" th:src="@{/resources/easyui/js/outlook.js}"
+        src="../resources/easyui/js/outlook.js"></script>
+<script type="text/javascript" th:src="@{/resources/easyui/locale/easyui-lang-zh_CN.js}"
+        src="../resources/easyui/locale/easyui-lang-zh_CN.js" charset="utf-8"></script>
+<script type="text/javascript">
+    var _menus = {
+        "menus": [
+            {
+                "menuid": "1", "icon": "icon-blank","menuname": "商品管理",
+                "menus": [
+                    /*{"menuid": "12", "menuname": "商品列表", "icon": "icon-large-chart", "url": "/ssm/product/page"},*/
+                    {"menuid": "12", "menuname": "商品列表", "icon": "icon-large-chart", "url": "/product/page"},
+                ]
+            },
+        ]
+    };
+</script>
+</body>
+</html>

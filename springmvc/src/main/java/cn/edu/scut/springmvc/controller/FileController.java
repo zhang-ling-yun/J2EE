@@ -24,7 +24,7 @@ public class FileController {
     public String fileUpload(@RequestParam CommonsMultipartFile file) throws IOException {
         long startTime = System.currentTimeMillis();
         System.out.println("fileName：" + file.getOriginalFilename());
-        String path = "E:/files/" + file.getOriginalFilename();
+        String path = "/Users/rain/" + file.getOriginalFilename();
 
         File newFile = new File(path);
         //通过CommonsMultipartFile的方法直接写文件（注意这个时候）

@@ -135,6 +135,8 @@ public class ProductTest {
         for (Product p : resultList) {
             System.out.println(p.getName());
         }
+
+        HibernateUtil.closeSession();
     }
 
     @Test

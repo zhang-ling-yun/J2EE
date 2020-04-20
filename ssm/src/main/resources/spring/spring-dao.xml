@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- 配置整合mybatis过程 -->
+    <!-- 1.配置数据库相关参数properties的属性：${url}
+    <context:property-placeholder location="classpath:jdbc.properties"/> -->
+    <!-- 账号密码解密 -->
+    <bean class="cn.edu.scut.ssm.util.EncryptPropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:jdbc.properties</value>
+            </list>
+        </property>
+        <property name="fileEncoding" value="UTF-8"/>
+    </bean>
+
+    <!-- 2.数据库连接池 -->
+    <!-- 阿里 druid 数据库连接池 -->
+    <bean id = "dataSource" class = "com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method = "close">
+        <!-- 数据库基本信息配置 -->
+        <property name = "url" value = "${druid.url}" />
+        <property name = "username" value = "${druid.username}" />
+        <property name = "password" value = "${druid.password}" />
+        <property name = "driverClassName" value = "${druid.driver}" />
+
+        <!-- 最大并发连接数 -->
+        <property name = "maxActive" value = "${druid.maxActive}" />
+
+        <!-- 初始化连接数量 -->
+        <property name = "initialSize" value = "${druid.initialSize}" />
+
+        <!-- 配置获取连接等待超时的时间 -->
+        <property name = "maxWait" value = "${druid.maxWait}" />
+
+        <!-- 最小空闲连接数 -->
+        <property name = "minIdle" value = "${druid.minIdle}" />
+
+        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        <property name = "timeBetweenEvictionRunsMillis" value ="${druid.timeBetweenEvictionRunsMillis}" />
+
+        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+        <property name = "minEvictableIdleTimeMillis" value ="${druid.minEvictableIdleTimeMillis}" />
+        <property name = "validationQuery" value = "${druid.validationQuery}" />
+        <property name = "testWhileIdle" value = "${druid.testWhileIdle}" />
+        <property name = "testOnBorrow" value = "${druid.testOnBorrow}" />
+        <property name = "testOnReturn" value = "${druid.testOnReturn}" />
+        <property name = "maxOpenPreparedStatements" value ="${druid.maxOpenPreparedStatements}" />
+
+        <!-- 打开 removeAbandoned 功能 -->
+        <property name = "removeAbandoned" value = "${druid.removeAbandoned}" />
+
+        <!-- 1800 秒，也就是 30 分钟 -->
+        <property name = "removeAbandonedTimeout" value ="${druid.removeAbandonedTimeout}" />
+
+        <!-- 关闭 abanded 连接时输出错误日志 -->
+        <property name = "logAbandoned" value = "${druid.logAbandoned}" />
+
+        <!-- ******重要的配置：监控统计拦截的filters,日志记录 *start* ******-->
+        <!-- 这里是以代理模式过滤stat和log的，所以用的两个bean分别是stat监控，log日志记录监控。 -->
+        <property name="proxyFilters">
+            <list>
+                <ref bean="statfilter" />
+                <ref bean="logFilter" />
+            </list>
+        </property>
+
+        <!-- 这句的配置才是在控制台打印sql的重点，建议平时开发中，打开该配置，上线的时候关闭掉，原因就是上面提到的，写日志很占空间。 -->
+        <!-- <property name = "filters" value = "${druid.filters}" />   -->
+        <!-- 放置SQL依赖注入 -->
+        <property name = "filters" value = "wall" />
+        <!--  *end* -->
+    </bean>
+
+    <!-- 慢SQL记录 *start* -->
+    <bean id="statfilter" class="com.alibaba.druid.filter.stat.StatFilter">
+        <!-- 开启合并sql -->
+        <property name="mergeSql" value="true" />
+        <!-- 开启慢查询语句,1秒 -->
+        <property name="slowSqlMillis" value="1000" />
+        <property name="logSlowSql" value="true" />
+    </bean>
+
+    <bean id="logFilter" class="com.alibaba.druid.filter.logging.Slf4jLogFilter">
+        <property name="statementExecutableSqlLogEnable" value="false" />
+    </bean>
+    <!-- 慢SQL记录  *end* -->
+
+    <!-- 3.配置SqlSessionFactory对象 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 注入数据库连接池 -->
+        <property name="dataSource" ref="dataSource" />
+        <!-- 配置MyBaties全局配置文件:mybatis-config.xml -->
+        <property name="configLocation" value="classpath:mybatis-config.xml" />
+        <!-- 扫描entity包 使用别名 -->
+        <property name="typeAliasesPackage" value="cn.edu.scut.ssm.entity" />
+        <!-- 扫描sql配置文件:mapper需要的xml文件 -->
+        <property name="mapperLocations" value="classpath:mapper/*.xml" />
+    </bean>
+
+    <!-- 4.配置扫描Dao接口包，动态实现Dao接口，注入到spring容器中 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 注入sqlSessionFactory -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+        <!-- 给出需要扫描Dao接口包 -->
+        <property name="basePackage" value="cn.edu.scut.ssm.dao" />
+    </bean>
+</beans>

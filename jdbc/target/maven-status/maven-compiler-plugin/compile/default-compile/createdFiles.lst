@@ -1,2 +1,2 @@
-util\DBUtil.class
-util\PropertiesUtil.class
+util/PropertiesUtil.class
+util/DBUtil.class

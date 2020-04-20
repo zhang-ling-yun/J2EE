@@ -1,3 +1,0 @@
-2019-03-24 22:25:08 [ main:25874 ] - [ERROR] - HibernateUti error : ExceptionInInitializerError
-2019-03-24 23:11:53 [ main:3918 ] - [ERROR] - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Java%' at line 1
-2019-03-24 23:17:38 [ main:4309 ] - [ERROR] - Data truncation: Data too long for column 'name' at row 1

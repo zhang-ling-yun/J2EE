@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/resources/easyui/themes/default/easyui.css}"
+          href="../../resources/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" th:href="@{/resources/easyui/themes/icon.css}"
+          href="../../resources/easyui/themes/icon.css">
+</head>
+
+<body>
+
+<div id="tb" style="padding: 5px; height: auto">
+    <div style="margin-bottom: 5px">
+        商品名称：<input type="text" id="searchName" style="border:1px solid #1D96E8"/>
+        <a href="#" id="btnR">搜索</a>
+        <a href="#" id="btnF">刷新</a>
+        <a href="#" id="btnD" onclick="destroyProduct()">删除</a>
+        <a href="#" id="btnU" onclick="editProduct()">修改</a>
+        <a href="#" id="btnC" onclick="newProduct()">添加</a>
+    </div>
+</div>
+
+<table id="dg">
+</table>
+
+<!-- 添加模块，默认隐藏 -->
+<div id="winAdd" class="easyui-window" title="My Window" style="width:500px;padding:20px 60px"
+     data-options="iconCls:'icon-save',modal:true,closed:true">
+    <form id="fmAdd" method="post">
+        <div style="margin-bottom:20px">
+            <div>商品名称:</div>
+            <input id="addName" class="easyui-textbox" name="name" style="width:100%;height:32px">
+        </div>
+        <div style="margin-bottom:20px">
+            <div>商品价格:</div>
+            <input id="addPrice" class="easyui-textbox" name="price" style="width:100%;height:32px">
+        </div>
+        <div style="margin-bottom:20px">
+            <div>商品类别:</div>
+            <input id="addCC" name="addCC" class="easyui-combobox" style="width:100%;height:32px"/>
+        </div>
+    </form>
+    <div id="dlg-save-buttons">
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" onclick="saveProduct()">保存</a>
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'"
+           onclick="javascript:$('#winAdd').dialog('close')">关闭</a>
+    </div>
+</div>
+
+<!-- 修改模块，默认隐藏 -->
+<div id="winEdit" class="easyui-window" title="My Window" style="width:500px;padding:20px 60px"
+     data-options="iconCls:'icon-save',modal:true,closed:true">
+    <form id="fmEdit" method="post">
+        <input type="hidden" name="id">
+        <input type="hidden" name="categoryName">
+        <div style="margin-bottom:20px">
+            <div>商品名称:</div>
+            <input id="updateName" class="easyui-textbox" name="name" style="width:100%;height:32px">
+        </div>
+        <div style="margin-bottom:20px">
+            <div>商品价格:</div>
+            <input id="updatePrice" class="easyui-textbox" name="price" style="width:100%;height:32px">
+        </div>
+        <div style="margin-bottom:20px">
+            <div>商品类别:</div>
+            <input id="updateCC" name="updateCC" class="easyui-combobox" style="width:100%;height:32px"/>
+        </div>
+    </form>
+    <div id="dlg-update-buttons">
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" onclick="updateProduct()">保存</a>
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'"
+           onclick="javascript:$('#winEdit').dialog('close')">关闭</a>
+    </div>
+</div>
+
+<script type="text/javascript" th:src="@{/resources/easyui/js/jquery.min.js}"
+        src="../../resources/easyui/js/jquery.min.js"></script>
+<script type="text/javascript" th:src="@{/resources/easyui/js/jquery.easyui.min.js}"
+        src="../../resources/easyui/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" th:src="@{/resources/easyui/locale/easyui-lang-zh_CN.js}"
+        src="../../resources/easyui/locale/easyui-lang-zh_CN.js" charset="utf-8"></script>
+<script type="text/javascript">
+    /* 加载表格 */
+    var jsonData = new Array()
+
+    function loadSelectList() {
+        $.ajax({
+            type: 'get',
+            url: '/category/all',
+            success: function (data) {
+                for (var i = 0; i < data.data.length; i++) {
+                    var map = {};
+                    map["id"] = data.data[i].id;
+                    map["text"] = data.data[i].text;
+                    jsonData[i] = map;
+                }
+
+                $('#updateCC').combobox({
+                    data: jsonData,
+                    valueField: 'id',
+                    textField: 'text',
+                    editable: false,
+                })
+
+                $('#addCC').combobox({
+                    data: jsonData,
+                    valueField: 'id',
+                    textField: 'text',
+                    editable: false,
+                })
+            }
+        })
+    }
+
+    function queryData() {
+
+        $('#dg').datagrid({
+            url: '/product/list',
+            columns: [[
+                {field: 'id', title: '编号', width: '10%'},
+                {field: 'name', title: '商品名称', width: '25%'},
+                {field: 'price', title: '商品价格', width: '10%'},
+                {field: 'categoryName', title: '商品类别', width: '20%'},
+                {
+                    field: 'createTime', title: '创建时间', width: '35%', formatter: function (value, row, index) {
+                        var date = new Date(value);
+                        var year = date.getFullYear().toString();
+                        var month = (date.getMonth() + 1);
+                        var day = date.getDate().toString();
+                        var hour = date.getHours().toString();
+                        var minutes = date.getMinutes().toString();
+                        var seconds = date.getSeconds().toString();
+                        if (month < 10) {
+                            month = "0" + month;
+                        }
+                        if (day < 10) {
+                            day = "0" + day;
+                        }
+                        if (hour < 10) {
+                            hour = "0" + hour;
+                        }
+                        if (minutes < 10) {
+                            minutes = "0" + minutes;
+                        }
+                        if (seconds < 10) {
+                            seconds = "0" + seconds;
+                        }
+                        return year + "-" + month + "-" + day + " " + hour + ":" + minutes + ":" + seconds;
+                    },
+                }
+            ]],
+            striped: true,
+            pagination: true,
+            pageSize: 4,
+            pageList: [4, 8, 12],
+            singleSelect: true,
+            fitColumns: true
+        });
+
+        //获取页面分页对象
+        var p = $('#dg').datagrid('getPager');
+        if (p) {
+            $(p).pagination({
+                beforePageText: '第',
+                afterPageText: '页 共 {pages}页',
+                displayMsg: '显示 {from}到{to} ,共 {total}条记录',
+                onSelectPage: function (page, pageSize) {
+                    getData(page, pageSize);
+                }
+            });
+        }
+    }
+
+    function getData(page, pageSize) {
+        var name = $('#searchName').val()
+        reloadGrid(name,page,pageSize)
+    }
+
+    function reloadGrid(name,page,pageSize) {
+        $.ajax({
+            type: "get",
+            url: "/product/list?name=" + name + '&page=' + page + '&rows=' + pageSize,
+            success: function (data) {
+                $("#dg").datagrid("loadData", data);
+            }
+        })
+    }
+
+    $(function () {
+        queryData()
+
+        loadSelectList()
+
+        $('#btnR').linkbutton({
+            iconCls: 'icon-search',
+            plain: 'true',
+        });
+        $('#btnR').bind('click', function () {
+            var name = $('#searchName').val();
+            if (name == "") {
+                $.messager.show({
+                    title: 'Error',
+                    msg: "请先输入商品名称后再进行查询",
+                    showType:'fade',
+                    timeout: 3000,
+                });
+            } else {
+                var page = $('#dg').datagrid('getPager').data("pagination").options.pageNumber;
+                var rows = $('#dg').datagrid('getPager').data("pagination").options.pageSize;
+                reloadGrid(name,page,rows)
+            }
+        });
+        $('#btnD').linkbutton({
+            iconCls: 'icon-remove',
+            plain: 'true'
+        });
+        $('#btnU').linkbutton({
+            iconCls: 'icon-edit',
+            plain: 'true'
+        });
+        $('#btnC').linkbutton({
+            iconCls: 'icon-add',
+            plain: 'true'
+        });
+        $('#btnF').linkbutton({
+            iconCls: 'icon-reload',
+            plain: 'true'
+        });
+        $('#btnF').bind('click', function () {
+            $('#searchName').val("");
+            window.location.reload();
+        });
+    });
+
+    /* 删除操作 */
+    function destroyProduct() {
+        var row = $('#dg').datagrid('getSelected');
+        if (row) {
+            $.messager.confirm('确认信息', '确定要删除此商品吗?', function (r) {
+                if (r) {
+                    $.ajax({
+                        type: 'post',
+                        url: '/product/delete',
+                        dataType: "json",
+                        data: {"id": row.id},
+                        success: function (data) {
+                            if (data.success) {
+                                $('#dg').datagrid('reload');	// reload the user data
+                            } else {
+                                $.messager.show({	// show error message
+                                    title: 'Error',
+                                    msg: data.msg,
+                                    showType: 'fade',
+                                    timeout: 3000,
+                                });
+                            }
+                        }
+                    })
+                }
+            });
+        } else {
+            $.messager.show({
+                title: 'Error',
+                msg: '请先选择你要删除的行',
+                showType:'fade',
+                timeout: 3000,
+            });
+        }
+    }
+
+    /* 打开添加窗口 */
+    function newProduct() {
+        $('#winAdd').dialog('open').dialog('setTitle', '添加商品');
+        $('#fmAdd').form('clear');
+    }
+
+    /* 保存添加数据 */
+    function saveProduct() {
+        var obj = {}
+        obj['name'] = $('#addName').val()
+        obj['price'] = $('#addPrice').val()
+        obj['category'] = {
+            id: $('#addCC').combobox('getValue')
+        }
+        console.log(obj)
+        $.ajax({
+            type: "POST",
+            url: "/product/save",
+            contentType: 'application/json',
+            data: JSON.stringify(obj),
+            success: function (data) {
+                if (data.success) {
+                    $('#winAdd').dialog('close');		// close the dialog
+                    $('#dg').datagrid('reload');	// reload the user data
+                } else {
+                    $.messager.show({
+                        title: 'Error',
+                        msg: data.msg,
+                        showType:'fade',
+                        timeout: 3000,
+                    });
+                }
+            }
+        })
+    }
+
+    /* 打开修改窗口 */
+    function editProduct() {
+        var row = $('#dg').datagrid('getSelected');
+        if (row) {
+            $('#winEdit').dialog('open').dialog('setTitle', '修改商品详情');
+            $('#fmEdit').form('load', row);
+            for (var i = 0; i < jsonData.length; i++) {
+                if (jsonData[i].text === row.categoryName) {
+                    $("#updateCC").combobox('setValue', jsonData[i].id);
+                }
+            }
+        } else {
+            $.messager.show({
+                title: 'Error',
+                msg: '请先选择你要修改的行',
+                showType:'fade',
+                timeout: 3000,
+            });
+        }
+    }
+
+    /* 保存修改数据 */
+    function updateProduct() {
+        var row = $('#dg').datagrid('getSelected');
+        var obj = {}
+        obj["name"] = $('#updateName').val()
+        obj["price"] = $('#updatePrice').val()
+        obj["id"] = row.id
+        obj["category"] = {
+            id: $('#updateCC').combobox('getValue')
+        }
+        $.ajax({
+            type: "POST",
+            url: "/product/update",
+            contentType: 'application/json',
+            data: JSON.stringify(obj),
+            success: function (data) {
+                if (data.success) {
+                    $('#winEdit').dialog('close');		// close the dialog
+                    $('#dg').datagrid('reload');	// reload the user data
+                } else {
+                    $.messager.show({
+                        title: 'Error',
+                        msg: data.msg,
+                        showType:'fade',
+                        timeout: 3000,
+                    });
+                }
+            }
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+cn/edu/scut/springmvc/entity/User.class
+cn/edu/scut/springmvc/interceptor/HelloInterceptor.class
+cn/edu/scut/springmvc/controller/HelloController.class
+cn/edu/scut/springmvc/controller/FormController.class
+cn/edu/scut/springmvc/controller/FileController.class

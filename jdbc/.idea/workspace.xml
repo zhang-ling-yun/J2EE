@@ -1,117 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9a500ac-88c6-49c6-bbd4-0e9fba6891b1" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <list default="true" id="e9a500ac-88c6-49c6-bbd4-0e9fba6891b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/dataSources/03c13e0f-d6e5-4a8d-8a72-958cde33fb88.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/dataSources/03c13e0f-d6e5-4a8d-8a72-958cde33fb88.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/hibernate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/logs/error.log.2019-03-23" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/logs/error.log.2019-03-23" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/logs/error.log.2019-03-24" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/logs/error.log.2019-03-24" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/logs/log.log.2019-03-23" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/logs/log.log.2019-03-23" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/logs/log.log.2019-03-24" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/logs/log.log.2019-03-24" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/logs/log.log.2019-03-25" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/logs/log.log.2019-03-25" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/java/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/main/java/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/java/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/main/java/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/resources/mapping/Product.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/main/resources/mapping/Product.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/test/java/Log4JTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/test/java/Log4JTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/test/java/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/src/test/java/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/target/classes/mapping/Product.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/target/classes/mapping/Product.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/PropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/cn/edu/scut/mybatis/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/cn/edu/scut/mybatis/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/cn/edu/scut/mybatis/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/cn/edu/scut/mybatis/dao/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/cn/edu/scut/mybatis/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/cn/edu/scut/mybatis/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/java/cn/edu/scut/mybatis/util/SessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/java/cn/edu/scut/mybatis/util/SessionFactoryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/resources/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/resources/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/src/test/java/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/src/test/java/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/target/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/target/classes/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/idea_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/idea_projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/SpringLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/entity/SpringLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ObjectInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ObjectInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ProductMethodInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ProductMethodInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ProxyProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/proxy/ProxyProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/transaction/LogTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/java/cn/edu/scut/spring/transaction/LogTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/src/test/java/cn/edu/scut/spring/entity/SpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/springmvc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/FormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/interceptor/HelloInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/java/cn/edu/scut/springmvc/interceptor/HelloInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/resources/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/resources/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/file/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/file/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/form/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/form/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/classes/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/classes/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/classes/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/classes/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/file/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/file/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/form/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/form/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc/target/springmvc/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-380804577">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.52" value="1" />
-          <entry key="project.open.time.63" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.85" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="428" />
-          <entry key="properties" value="23" />
-          <entry key="xml" value="95" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="428" />
-          <entry key="Properties" value="23" />
-          <entry key="XML" value="95" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="7" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="7" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/PropertiesUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding>
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/DBUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ProductTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1804">
-              <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - huagong@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,88 +145,45 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/util/PropertiesUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/DBUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ProductTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      </list>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\libs" />
-        <option name="mavenHome" value="D:/maven/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="$USER_HOME$/maven/repos" />
+        <option name="mavenHome" value="$USER_HOME$/maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="$USER_HOME$/maven/apache-maven-3.6.2/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="34" />
-    <option name="y" value="1" />
-    <option name="width" value="1036" />
-    <option name="height" value="754" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jdbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1YN5J5PkUFTCZUcfW4aAvKPrgN2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553001384131" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tybxw_back" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -219,7 +200,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductTest.deleteProduct">
+  <component name="RunManager" selected="JUnit.ProductTest">
+    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductTest.deleteProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdbc" />
       <option name="PACKAGE_NAME" value="" />
@@ -250,16 +240,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest.testGetProductName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbc" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductTest" />
-      <option name="METHOD_NAME" value="testGetProductName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProductTest.updateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdbc" />
       <option name="PACKAGE_NAME" value="" />
@@ -271,21 +251,41 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ProductTest.testGetProductName" />
       <item itemvalue="JUnit.ProductTest.insertProduct" />
       <item itemvalue="JUnit.ProductTest.updateProduct" />
       <item itemvalue="JUnit.ProductTest.deleteProduct" />
       <item itemvalue="JUnit.ProductTest.getProductPrice" />
+      <item itemvalue="JUnit.ProductTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductTest" />
         <item itemvalue="JUnit.ProductTest.deleteProduct" />
         <item itemvalue="JUnit.ProductTest.updateProduct" />
         <item itemvalue="JUnit.ProductTest.getProductPrice" />
         <item itemvalue="JUnit.ProductTest.insertProduct" />
-        <item itemvalue="JUnit.ProductTest.testGetProductName" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2a8a58e9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2a8a58e9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2d296385" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -304,129 +304,35 @@
       <workItem from="1552989730566" duration="9000" />
       <workItem from="1552993586768" duration="4490000" />
       <workItem from="1553006599993" duration="81000" />
+      <workItem from="1582770141048" duration="3061000" />
+      <workItem from="1583407190515" duration="1240000" />
+      <workItem from="1583452961842" duration="429000" />
+      <workItem from="1583458087794" duration="318000" />
+      <workItem from="1583477979403" duration="83000" />
+      <workItem from="1583478796238" duration="1234000" />
+      <workItem from="1583487840695" duration="340000" />
+      <workItem from="1583496496097" duration="5289000" />
+      <workItem from="1583757633691" duration="559000" />
+      <workItem from="1583761494743" duration="474000" />
+      <workItem from="1584000234140" duration="1071000" />
+      <workItem from="1584070392930" duration="188000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ProductTest_deleteProduct - 2019.03.16 at 23h 22m 38s.xml">
-      <configuration name="ProductTest.deleteProduct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_insertProduct - 2019.03.16 at 23h 22m 49s.xml">
-      <configuration name="ProductTest.insertProduct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_testGetProductName - 2019.03.16 at 23h 22m 55s.xml">
-      <configuration name="ProductTest.testGetProductName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_updateProduct - 2019.03.16 at 23h 23m 03s.xml">
-      <configuration name="ProductTest.updateProduct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_deleteProduct - 2019.03.16 at 23h 23m 12s.xml">
-      <configuration name="ProductTest.deleteProduct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_insertProduct - 2019.03.18 at 20h 04m 38s.xml">
-      <configuration name="ProductTest.insertProduct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_insertProduct - 2019.03.19 at 21h 06m 50s.xml">
-      <configuration name="ProductTest.insertProduct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_getProductPrice - 2019.03.19 at 21h 08m 29s.xml">
-      <configuration name="ProductTest.getProductPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_updateProduct - 2019.03.19 at 21h 09m 43s.xml">
-      <configuration name="ProductTest.updateProduct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductTest_deleteProduct - 2019.03.19 at 21h 10m 04s.xml">
-      <configuration name="ProductTest.deleteProduct" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9690000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1603631" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39663866" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34285715" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3529412" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="SciView" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/PropertiesUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

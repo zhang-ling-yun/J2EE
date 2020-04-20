@@ -50,7 +50,7 @@ public interface ProductDao {
      * @param name
      * @return
      */
-    List<Product> listProductByName(@Param("name") String name);
+    List<Product> listProductByName(String name);
 
     /**
      * 根据名称和价格模糊查询商品列表
@@ -58,7 +58,7 @@ public interface ProductDao {
      * @param price
      * @return
      */
-    List<Product> listProductByNameAndPrice(@Param("name") String name,@Param("price") Double price);
+    List<Product> listProductByNameAndPrice(@Param("name") String name, @Param("price") Double price);
 
     /**
      * 使用choose标签查询商品列表

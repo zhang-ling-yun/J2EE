@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.scut.ssm.dao.ProductDao">
+    <resultMap id="productMap" type="cn.edu.scut.ssm.entity.Product">
+        <id column="id" property="id" />
+        <!-- property对应实体类中的属性名 column 对应库表中的字段名 -->
+        <result column="name" property="name" />
+        <result column="price" property="price" />
+        <result column="create_time" property="createTime" />
+        <!-- 一对一使用association product中的属性为Category， 通过数据库中的category_id关联起来的
+            类型为 cn.edu.scut.ssm.entity.Category -->
+        <association property="category" column="category_id" javaType="cn.edu.scut.ssm.entity.Category">
+            <id column="categoryId" property="id" />
+            <result column="categoryName" property="name" />
+        </association>
+    </resultMap>
+
+    <select id="selectProductList" resultMap="productMap">
+      select p.id,p.name,p.price,p.create_time,c.id categoryId,c.name categoryName
+      from product p,category c
+      where p.category_id = c.id
+      <if test="name != null and name != ''">
+          and p.name like CONCAT(CONCAT('%',#{name}),'%')
+      </if>
+        order by p.create_time desc
+    </select>
+
+    <insert id="addProduct" parameterType="Product">
+        insert into product(`name`,price,category_id)
+        values(#{name},#{price},#{category.id})
+    </insert>
+
+    <update id="updateProduct" parameterType="cn.edu.scut.ssm.entity.Product">
+        update product
+        <set>
+            <if test="name != null and name != ''">
+                `name` = #{name},
+            </if>
+            <if test="price != null">
+                price = #{price},
+            </if>
+            <if test="category != null and category.id != null">
+                category_id = #{category.id}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteProduct">
+        delete from product where id = #{id}
+    </delete>
+</mapper>

@@ -1,6 +1,7 @@
 import org.junit.Test;
 import util.DBUtil;
 
+import java.math.BigDecimal;
 import java.sql.*;
 
 /**
@@ -45,7 +46,7 @@ public class ProductTest {
             //执行语句，得到结果集  
             ret = stmt.executeQuery(sql);
             while (ret.next()) {
-                //这里只查询的密码
+                //这里只查询的价格
                 price = ret.getDouble(1);
                 System.out.println(price);
             }

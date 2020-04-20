@@ -12,6 +12,7 @@ import java.util.Date;
  */
 @Data
 public class Product {
+
     private Integer id;
     /**
      * 商品名称
@@ -36,3 +37,5 @@ public class Product {
         this.createTime = createTime;
     }
 }
+
+
