@@ -24,7 +24,7 @@
         <!-- mybatis版本号 -->
         <mybatis.version>3.5.0</mybatis.version>
         <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
-        <jackson.version>2.9.2</jackson.version>
+        <jackson.version>2.9.10.7</jackson.version>
     </properties>
 
     <dependencies>
